@@ -1,2 +1,4 @@
-console.log('Hello  Buddy')
-console.log('How are you?')
+function toggleShow () {
+    var el = document.getElementById("box");
+    el.classList.toggle("show");
+  }

@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FYP</title>
-    <link rel="icon" type="image/x-icon" href="./Images/logo.png">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FYP</title>
+  <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
+
 <body>
   <div class="background">
     <div class="transbox">
       <div class="nav-container">
-      <div class="logo">
-        <img src="./Images/logo.png" alt="">
+        <div class="logo">
+          <img src="./Images/logo.png" alt="">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#" class="hover-underline-animation">Home</a></li>
+            <li><a href="#" class="hover-underline-animation">About</a></li>
+            <li><a href="#" class="hover-underline-animation">Services</a></li>
+            <li><a href="#" class="hover-underline-animation">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#" class="hover-underline-animation">Home</a></li>
-          <li><a href="#" class="hover-underline-animation">About</a></li>
-          <li><a href="#" class="hover-underline-animation">Services</a></li>
-          <li><a href="#" class="hover-underline-animation">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="line">
-      <br>
-    </div>
+      <div class="line">
+        <br>
+      </div>
+      <div class="sec-1-main">
+        <div class="sec-1-heading">
+          <h1>The Most Affortable Place To Stay In The Punjab</h1>
+          <div class="container">
+            <input type="text" id="box" placeholder="Search Places..." class="search__box">
+            <i class="fas fa-search search__icon" id="icon" onclick="toggleShow()"></i>
+          </div>
+        </div>
+        <div class="sec-1-map">
+          <img src="./Images/Sec-1-map.png" alt="">
+        </div>
+      </div>
       <!-- You can add more content here -->
-    
-    
+
+
+    </div>
   </div>
-  </div>
+  <script src="./test.js"></script>
 </body>
+
 </html>
